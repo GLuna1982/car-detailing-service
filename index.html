@@ -20,7 +20,7 @@
         <article class="pckgs">
           <img src="./assets/images/black-car-sponge.jpg" alt="black car washed with sponge">
           <h2>In a Rush Package</h2>
-          <h3>Price: $20</h3>
+          <h3>Price: Starting at $20</h3>
           <p>Includes:</p>
           <ul>
             <li>Exterior Wash</li>
@@ -34,7 +34,7 @@
         <article class="pckgs">
           <img src="./assets/images/exterior-wash-car.jpg" alt="sports car being washed">
           <h2>Pressed for Time Package</h2>
-          <h3>Price: $25</h3>
+          <h3>Price: Starting at $25</h3>
           <p>Includes:</p>
           <ul>
             <li>Exterior Wash</li>
@@ -45,12 +45,12 @@
             <li>Towel Dry</li>
           </ul>
           <button type="button" value="submit">Schedule a Car Wash</button>
-        </article>
+        </article> 
         <!--Full Service-->        
         <article class="pckgs">
           <img src="./assets/images/car-detailing.jpg" alt="detailed car wash">
           <h2>Right on Time Package</h2>
-          <h3>Price: $30</h3>
+          <h3>Price: Starting at $30</h3>
           <p>Includes:</p>
           <ul>
             <li>Exterior Wash</li>
@@ -66,11 +66,39 @@
       </section>
       <!--Scheduling Section-->
       <section>
+        <h1>Schedule Your Car Wash Now</h1>
+        <!--Contact form-->
+        <form autocomplete="on">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="phone-num">Phone Number:</label>
+          <input type="tel" id="phone-num" name="phone-num">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city">
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state">
+          <label for="zip">Zip code:</label>
+          <input type="text" id="zip" name="zip">
+          <p>What type of car do you need washed?</p>
+          <input type="radio" id="compact" name="car" value="Compact car">
+          <label for="compact">Compact car</label>
+          <input type="radio" id="sedan" name="car" value="Sedan">
+          <label for="compact">Sedan</label>
+          <input type="radio" id="suv/van" name="car" value="SUV / Van">
+          <label for="compact">SUV / Van</label>
+          <input type="radio" id="truck" name="car" value="Truck">
+          <label for="compact">Truck</label>
+        </form>
+        <!--Calendar to Schedule Appointment-->
+        <div>
 
+        </div>
       </section>
       <!--Footer-->
-      <footer>
-
-      </footer>
+      <footer></footer>
   </body>
 </html>
