@@ -1,0 +1,67 @@
+/* Custom Global Properties */
+:root {
+    --dark-blue: #031142;
+    --light-blue: #59A4EF;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+/* Page Margins and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style: background, position and font */
+body {
+    background-color: var(--white);
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* Header Styling */
+header {
+    padding: 0px 10px 0px 10px;
+    background-color: var(--white);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+/* Logo styling */
+header img {
+    width: 500px;
+    height: 250px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Nav Bar Styling */
+header nav {
+    margin: 0;
+    text-align: center;
+}
+
+header a {
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 25px 0px 25px;
+    margin: 0;
+}
