@@ -42,26 +42,49 @@ header nav {
     margin: 0;
     text-align: center;
 }
-
 header a {
     color: var(--dark-blue);
     text-decoration: none;
 }
-
 header nav ul {
     display: inline-block;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 header nav ul li {
     display: inline;
 }
-
 header nav ul li a {
     font-weight: bold;
     font-size: 25px;
     padding: 5px 25px 0px 25px;
     margin: 0;
+}
+
+/* Hero Section Style */
+.hero {
+    background-image: url("../images/cream-car-full.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-text {
+    background-color: rgba(232, 232, 232, 60%);
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(232, 232, 232, 40%);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.hero-text p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: justify;
+    padding: 10px;
 }
